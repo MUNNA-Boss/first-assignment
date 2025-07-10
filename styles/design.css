@@ -1,0 +1,41 @@
+
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.firstp{
+    background-image:url(Hero-bg.png) ;
+}
+
+
+.ll{
+    font-size: 40px;
+    color: blue;
+}
+.btn-primary{
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+    font-size: normal;
+    color: aliceblue;
+    
+}
+
+nav{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.main{
+    text-align: center;
+    font-size: 50px;
+}
+.firstp{
+
+}
