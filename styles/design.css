@@ -1,6 +1,3 @@
-
-
-
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -10,6 +7,8 @@
 }
 .firstp{
     background-image:url(Hero-bg.png) ;
+    width: 1440px;
+    height: 698;
 }
 
 
@@ -23,6 +22,8 @@
     border-radius: 3px;
     font-size: normal;
     color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 5px;
     
 }
 
@@ -36,6 +37,22 @@ nav{
     text-align: center;
     font-size: 50px;
 }
-.firstp{
+.head{
+background-image: url('/immages/Hero-bg.png');
+}
+
+.content{
+    padding: 50px;
+}
+
+.banner{
+    display:flex;
+    gap: 800px;
+}
+
+.bannar-pictur{
+    width: 403px;
+    border-radius: 20px;
+    borde: ;
 
 }
