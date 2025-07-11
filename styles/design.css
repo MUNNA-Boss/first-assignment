@@ -53,6 +53,25 @@ background-image: url('/immages/Hero-bg.png');
 .bannar-pictur{
     width: 403px;
     border-radius: 20px;
-    borde: ;
 
+}
+.users{
+    text-align: center;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    margin: 141px 130px;
+    padding: 30px 50px;
+border-radius: 10px;
+
+}
+.user-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-titel{
+    font-size: 55px ;color: blue;
+    
+}
+.head-li{
+    font-size: 80px;
 }
