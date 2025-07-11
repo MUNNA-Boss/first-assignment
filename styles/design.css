@@ -106,3 +106,39 @@ border-radius: 10px;
     background-color: lch(98.99% 1.06 90.71);
     
 }
+.footer-colum{
+    width: 50%;
+
+}
+.footer{
+    display: flex;
+    padding: 135px 250px;
+    gap: 100px; 
+    
+}
+input{
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    display: block;
+    gap: 20px;
+
+}
+textarea{
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    display: block;
+    gap: 20px;
+
+}
+.touch{
+    font-size: 100px;
+    color: blue;
+}
+.type{
+    background-color: blue;
+    font:25px;
+    color: aliceblue;
+}
+
