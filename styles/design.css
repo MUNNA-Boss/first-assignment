@@ -106,39 +106,124 @@ border-radius: 10px;
     background-color: lch(98.99% 1.06 90.71);
     
 }
-.footer-colum{
-    width: 50%;
+.fc-main{
+    display: flex;
+    justify-content: center;
+}
+.focus{
+    background-color: white;
+    text-align: center;
+    padding: 30px 50px;
+    width: 600px;
+    margin: 20px 50px; 
+    border-radius: 20px;
 
 }
-.footer{
+.focus h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+.focus p{
+    font-size: 12px;
+    margin: 10px;
+    color: gray;
+}
+.focus-btn{
+    
+    text-align: center;
+    padding: 10px 24px;
+    margin-bottom: 20px;
+}
+.focus-img{
+    height: 220px;
+    width: 500px;
+    border-radius: 20px;
+}
+/*----form section---*/
+.frm-main{
     display: flex;
-    padding: 135px 250px;
-    gap: 100px; 
+    justify-content: center; 
+    background-color: lightblue;
+}
+.form-sec{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    padding: 50px 20px;
+}
+.form input{
+    margin: 5px;
+}
+.form-head h1{
+    font-size: 50px;
     
 }
-input{
-    width: 50%;
-    height: 50px;
+.in-item{
+    height: 35px;
+    border: none;
+    width: 250px;
+    margin: 0px;
+    border-radius: 5px;
+}
+.in-item2{
+    height: 80px;
+    border: none;
+    width: 255px;
+    border-radius: 5px;
+}
+.form{
     border-radius: 10px;
-    display: block;
-    gap: 20px;
-
+    padding: 30px;
+}
+.form-btn{
+    height: 35px;
+    width: 255px;
+    margin-top: 10px;
+    background-color: blue;
+    color: aliceblue;
+     border-radius: 5px;
+}
+a{
+    text-decoration: none;
 }
 textarea{
-    width: 50%;
-    height: 50px;
-    border-radius: 10px;
-    display: block;
-    gap: 20px;
-
+    resize: none;
 }
-.touch{
-    font-size: 100px;
+/*-------foooter section*/
+
+.foot-main{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    font-size: 70px;
     color: blue;
 }
-.type{
-    background-color: blue;
-    font:25px;
-    color: aliceblue;
+
+.footer{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 15px;
 }
+.ft-main h1{
+    margin: 0px;
+    padding: 20px;
+}
+.ft-main p{
+    margin: 10px auto;
+    font-size: 10px;
+    color: gray;
+    width: 300px;
+}
+.link a{
+    color: rgb(151, 146, 146);
+    font-size: 12px;
+    margin-left: 20px;
+}
+.link a:hover{
+    color: rgb(67, 75, 187);
+    transition: 0.5s;
 
